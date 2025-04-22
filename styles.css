@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #8A2BE2;
+}
+
+h2 {
+    color: #F08080;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+} 
+
+ul {
+    padding-left: 20px;
+}
+
+button {
+    padding: 8px 16px;
+    background: #94dafa;
+    color: white
+    border: none;
+    cursor: pointer;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #222;
+    color: #eee;
+}
+
+.dark-mode h1, .dark-mode h2 {
+    color: #ddd;
+}
